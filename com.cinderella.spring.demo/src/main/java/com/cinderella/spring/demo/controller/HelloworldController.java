@@ -5,6 +5,11 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
+/**
+ * 这是请求的入口
+ * @author Administrator
+ *
+ */
 @Controller
 @RequestMapping("/welcome")
 public class HelloworldController {
