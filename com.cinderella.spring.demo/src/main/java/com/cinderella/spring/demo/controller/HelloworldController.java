@@ -19,6 +19,7 @@ public class HelloworldController {
 		model.addAttribute("output0", "[INFO]controller is start...");
 		model.addAttribute("output", "这是一个spring项目搭建的测试例子!");
 		model.addAttribute("output1", "[INFO]controller is end.");
+		System.out.println("..........end........");
 		return "hello";
 	}
 }
